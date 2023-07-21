@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar{
+    height: 60px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.nav-left{
+    display: flex;
+   align-items: center;
+   padding-left:50px;
+}
+.search-container {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+  }
+  
+  /* Style the search bar input */
+  .search-bar {
+    width: 250px; /* Set the width as per your design */
+    height: 40px;
+    padding-right: 30px; /* Leave enough space for the search logo */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:#f1efee;
+  }
+  
+  /* Style the search logo container */
+  .search-logo-container {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+  }
+  
+  /* Style the search logo */
+  .search-logo {
+    width: 20px; /* Set the width as per your logo's dimensions */
+    height: 20px; /* Set the height as per your logo's dimensions */
+    padding: 10px;
+  }
+  .nav-right{
+    display: flex;
+    
+  }
+  .navigator a{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+  }
+  .navigator img{
+    height: 25px;
+    width: 25px;
+  }
+  .profile a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    padding-right: 40px;
+  }
+  .profile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  /* Main body */
+  .container{
+    height: 200vh;
+    width: 100w;
+    overflow: hidden;
+    background-color:#e2dedd;
+    display: flex;
+    overflow: hidden;
+  }
+  .left{
+    height: 113vh;
+    width: 38vh;
+    background-color: white;
+    margin-left: 3vw;
+    margin-top: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+.myself{
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.about{
+  height: 140px;
+  width: 100%;
+}
+.upper{
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(to right, #ff0000, yellow);
+  border-radius: 8px;
+}
+.lower{
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lower img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.connections{
+  padding:10px;
+
+}
+.my-items{
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+
+}
+.my-items a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  font-weight: 600;  
+}
+.recent{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.recent a{
+  color: black;
+  text-decoration: none;
+}
+.groups{
+  display: flex;
+  flex-direction: column;
+}
+.groups a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.groups img{
+  height: 30px;
+}
+.followed{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.followed a{
+  text-decoration: none;
+  color:black;
+  padding: 10px;
+}
+.left-bottom{
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.mid{
+  height: 100vh;
+  width: 50vw;
+  margin-top:50px;
+  margin-left: 3vw;
+   margin-right: 0px;
+ 
+}
+.mid-profile{
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.mid-profile img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.mid-profile-upper{
+  display: flex;
+  align-items: center;
+   
+}
+.mid-profile-upper input{
+  height: 35px;
+  width: 80%;
+  border-radius: 25px;
+  padding-left: 10px;
+}
+.mid-profile-lower{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.mid-profile-lower img{
+  height: 30px;
+  width: 30px;
+}
+.mid-profile-lower a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 20px; 
+}
+
+.post{
+  height: 80vh;
+  margin-top: 25px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.post-upper{
+  height:70px;
+  display: flex;
+
+  
+}
+
+.post-upper img{
+  height: 40px;
+  width: 50px;
+}
+.myntra{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 10px;
+  justify-content: center;
+}
+.dots-3{
+  margin-left: 63%;
+  padding-top: 10px;
+}
+.post-upper a img{
+  height: 25px;
+  width: 30px;
+}
+.main-post{
+  height: 60vh;
+  cursor: pointer;
+}
+.main-post-img{
+  width: 50vw;
+  height: 60%;
+}
+.main-post-img img{
+  width: 100%;
+  height:auto;
+}
+.likes{
+  height: 20px;
+  width: 100%;
+  margin-top: 0px;
+  display: flex;
+}
+.likes img{
+  height: 15px;
+  padding-left: 3px;
+}
+.like-section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.like-section i{
+   height: 20px;
+}
+.like-section i{
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+.right{
+  width: 20vw;
+  margin-top: 50px;
+  margin-left:1rem;
+}
+.news{
+  margin-left: 20px;
+  width: 100%;
+  background-color: white;
+  height: 260px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.news h3{
+  padding: 10px 0px;
+  padding-top: 5px;
+}
+.news ul li{
+  padding: 5px;
+  margin-left: 15px;
+}
+.courses{
+  margin-left: 20px;
+  width: 100%;
+  background-color: white;
+  height: 120px;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid black;
+
+}
+.courses ul li{
+  padding: 5px 0px;
+  margin-left: 15px;
+}
+.course p{
+  padding: 0px 5px;
+}
+.feed{
+  height: 40vh;
+  width: 100%;
+  background-color: white;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.first{
+  display: flex;
+
+}
+.uni-logo img{
+  height: 50px;
+  width: 50px;
+}
+.btn{
+  height: 25px;
+  width: 140px;
+  border: 1px solid black;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .navbar{
+    width: 100vw;
+
+  }
+  .mid{
+    width: 50vw;
+    height: 60vh;
+    margin: 0;
+  }
+  .post
+  .left{
+    width: 20vw;
+    height: 100vh;
+    margin: 0;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .right{
+    width: 20vw;
+    height: 100vh;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .news{
+    margin-left: 0;
+  }
+  .courses{
+    margin-left: 0;
+    height: 180px;
+  }
+  .feed{
+    margin-left: 0;
+  }
+}
+@media (max-width:1040px) {
+  .
+}
